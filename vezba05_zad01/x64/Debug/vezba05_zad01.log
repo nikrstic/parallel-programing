@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad01\FileName.cpp(50,24): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad01\FileName.cpp(39): warning C4717: 'quicksort<int>': recursive on all control paths, function will cause runtime stack overflow
+  vezba05_zad01.vcxproj -> C:\Users\user\source\repos\vezba01_zad01\x64\Debug\vezba05_zad01.exe

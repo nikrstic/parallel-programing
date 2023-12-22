@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (vezba02_zad02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  FileName.cpp
+C:\Users\user\source\repos\vezba01_zad01\vezba02_zad02\FileName.cpp(16): warning C4715: 'Tacka2d::operator<': not all control paths return a value
+  vezba02_zad02.vcxproj -> C:\Users\user\source\repos\vezba01_zad01\x64\Debug\vezba01_zad02.exe

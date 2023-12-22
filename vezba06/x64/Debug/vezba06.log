@@ -1,0 +1,46 @@
+﻿  FileName.cpp
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(279,10): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(280,12): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(227,9): error C2955: 'BinarnaOperacija': use of class template requires template argument list
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(123,1): message : see declaration of 'BinarnaOperacija'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,17): message : see reference to function template instantiation 'auto operator +<Vektor<float>,Vektor<float>>(const L &,const R &)' being compiled
+          with
+          [
+              L=Vektor<float>,
+              R=Vektor<float>
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): error C2665: 'sqrt': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(531,46): message : could be 'long double sqrt(long double) noexcept'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : 'long double sqrt(long double) noexcept': cannot convert argument 1 from 'void' to 'long double'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,17): message : Expressions of type void cannot be converted to other types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(265,40): message : or       'float sqrt(float) noexcept'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : 'float sqrt(float) noexcept': cannot convert argument 1 from 'void' to 'float'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,17): message : Expressions of type void cannot be converted to other types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(483,54): message : or       'double sqrt(double)'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : 'double sqrt(double)': cannot convert argument 1 from 'void' to 'double'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,17): message : Expressions of type void cannot be converted to other types
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(271,6): message : or       'auto sqrt(const Arg &)'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : Failed to specialize function template 'auto sqrt(const Arg &)'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : With the following template arguments:
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : 'Arg=void'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(675,1): message : or       'double sqrt(_Ty) noexcept'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : 'double sqrt(_Ty) noexcept': could not deduce template argument for '__formal'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,11): message : while trying to match the argument list '(void)'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(238,9): error C2955: 'BinarnaOperacija': use of class template requires template argument list
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(123,1): message : see declaration of 'BinarnaOperacija'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,25): message : see reference to function template instantiation 'auto operator *<Vektor<float>,Vektor<float>>(const L &,const R &)' being compiled
+          with
+          [
+              L=Vektor<float>,
+              R=Vektor<float>
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(282,21): error C2186: '-': illegal operand of type 'void'
+C:\Users\user\source\repos\vezba01_zad01\vezba06\FileName.cpp(285,27): error C3536: 'c': cannot be used before it is initialized

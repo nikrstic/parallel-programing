@@ -1,0 +1,10 @@
+﻿  FileName.cpp
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad02\FileName.cpp(75,9): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type '_Rep'
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad02\FileName.cpp(75,9): message : consider using '%lld' in the format string
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad02\FileName.cpp(75,9): message : consider using '%Id' in the format string
+C:\Users\user\source\repos\vezba01_zad01\vezba05_zad02\FileName.cpp(75,9): message : consider using '%I64d' in the format string
+  vezba05_zad02.vcxproj -> C:\Users\user\source\repos\vezba01_zad01\x64\Debug\vezba05_zad02.exe

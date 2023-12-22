@@ -1,0 +1,20 @@
+﻿  FileName.cpp
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(23,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(51,2): message : see reference to function template instantiation 'int main1<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(void)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(11,8): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(27,2): message : see reference to function template instantiation 'void nadji_max<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iterator,Iterator,int &)' being compiled
+          with
+          [
+              _Ty=int,
+              Iterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(51,2): message : see reference to function template instantiation 'int main1<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(void)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\user\source\repos\vezba01_zad01\vezba03_zad04\FileName.cpp(48): error C4716: 'main1<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >': must return a value
